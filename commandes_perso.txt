@@ -1,0 +1,19 @@
+openssl req -new -config config.conf -out ALLEMANO-Email.csr -keyout ALLEMANO-Email.key
+
+openssl req -new -config config.conf -out enzo.allemano@heig-vd.ch.csr -keyout enzo.allemano@heig-vd.ch.key
+
+openssl ca -config config.conf -in ../mail_client/enzo.allemano@heig-vd.ch.csr -out enzo.allemano@heig-vd.ch.crt
+
+cat enzo.allemano@heig-vd.ch.crt ../mail_CA/ALLEMANO-Email.crt > CERTIF_CHAIN.crt
+
+openssl pkcs12 -export -name enzo_p12 -inkey enzo.allemano@heig-vd.ch.key -in enzo.allemano@heig-vd.ch.crt -certfile ../CERTIF_CHAIN.crt -out enzo.allemano@heig-vd.ch.p12
+
+----
+
+openssl req -new -config config.conf -out ALLEMANO-TLS.csr -keyout ALLEMANO-TLS.key
+
+openssl req -new -config config.conf -out IP.csr -keyout IP.key
+
+openssl ca -config config.conf -in ../TLS_client/IP.csr -out IP.crt
+
+cat IP.crt ../TLS_CA/ALLEMANO-TLS.crt > CERTIF_CHAIN.crt

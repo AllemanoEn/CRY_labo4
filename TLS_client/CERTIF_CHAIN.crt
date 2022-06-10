@@ -1,0 +1,130 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CH, O=HEIG-VD, CN=ALLEMANO-TLS
+        Validity
+            Not Before: Jun  7 15:35:17 2022 GMT
+            Not After : Jun  6 15:35:17 2024 GMT
+        Subject: C=CH, O=HEIG-VD, CN=www.enzo.ch
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (1024 bit)
+                Modulus:
+                    00:a5:ba:f9:ac:67:9e:47:5f:f4:c1:fb:cc:ef:4e:
+                    79:23:7c:4f:56:e8:39:17:96:54:d3:c6:e9:10:48:
+                    fc:ef:da:c9:83:c8:89:02:c4:e0:5c:01:80:51:c7:
+                    9b:79:0f:e5:a3:82:16:37:cb:e1:b6:d5:c3:09:58:
+                    a1:e3:86:50:b3:c8:36:86:fc:08:97:1a:c6:b4:39:
+                    6f:ec:2b:4f:6f:c2:f0:08:20:e3:4b:f1:b9:07:e3:
+                    61:d0:ef:e3:73:43:38:96:f7:18:76:cd:fe:4b:df:
+                    3f:f2:f5:0e:33:ec:98:6a:15:d0:df:68:25:b3:cd:
+                    d9:61:f8:fc:84:19:cd:d7:75
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                BE:80:21:E5:AF:B3:0E:5D:0E:1B:0C:A7:61:D3:13:DD:03:B0:38:D2
+            X509v3 Authority Key Identifier: 
+                keyid:9B:65:A5:D8:EC:13:EC:82:59:2E:B6:55:F4:5E:6C:5E:00:13:DD:7F
+
+            X509v3 Subject Alternative Name: 
+                IP Address:10.192.72.133
+    Signature Algorithm: sha256WithRSAEncryption
+         29:53:f1:c4:54:8a:de:a3:90:43:ec:8e:be:03:28:6d:94:e2:
+         a8:e3:04:24:f8:38:af:b8:fe:a3:d4:de:ed:db:1c:db:96:9b:
+         e3:33:e3:fa:83:be:52:63:a3:0e:c2:a9:85:54:90:73:6f:d3:
+         fe:aa:7d:e4:3a:b3:4d:b9:37:67:2f:05:cf:4d:c9:11:5c:61:
+         3f:f0:fc:a0:d2:08:97:0f:6d:4c:bb:4c:e4:04:3c:e4:32:34:
+         82:6c:ec:25:cf:26:ae:57:7c:0d:75:bf:65:f7:4d:e2:b6:4f:
+         a4:eb:86:9e:82:3b:18:95:ee:28:a5:46:52:19:21:e8:46:63:
+         07:2f
+-----BEGIN CERTIFICATE-----
+MIICcDCCAdmgAwIBAgIBATANBgkqhkiG9w0BAQsFADA2MQswCQYDVQQGEwJDSDEQ
+MA4GA1UECgwHSEVJRy1WRDEVMBMGA1UEAwwMQUxMRU1BTk8tVExTMB4XDTIyMDYw
+NzE1MzUxN1oXDTI0MDYwNjE1MzUxN1owNTELMAkGA1UEBhMCQ0gxEDAOBgNVBAoM
+B0hFSUctVkQxFDASBgNVBAMMC3d3dy5lbnpvLmNoMIGfMA0GCSqGSIb3DQEBAQUA
+A4GNADCBiQKBgQCluvmsZ55HX/TB+8zvTnkjfE9W6DkXllTTxukQSPzv2smDyIkC
+xOBcAYBRx5t5D+WjghY3y+G21cMJWKHjhlCzyDaG/AiXGsa0OW/sK09vwvAIIONL
+8bkH42HQ7+NzQziW9xh2zf5L3z/y9Q4z7JhqFdDfaCWzzdlh+PyEGc3XdQIDAQAB
+o4GOMIGLMA4GA1UdDwEB/wQEAwIFoDAJBgNVHRMEAjAAMB0GA1UdJQQWMBQGCCsG
+AQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQUvoAh5a+zDl0OGwynYdMT3QOwONIw
+HwYDVR0jBBgwFoAUm2Wl2OwT7IJZLrZV9F5sXgAT3X8wDwYDVR0RBAgwBocECsBI
+hTANBgkqhkiG9w0BAQsFAAOBgQApU/HEVIreo5BD7I6+AyhtlOKo4wQk+DivuP6j
+1N7t2xzblpvjM+P6g75SY6MOwqmFVJBzb9P+qn3kOrNNuTdnLwXPTckRXGE/8Pyg
+0giXD21Mu0zkBDzkMjSCbOwlzyauV3wNdb9l903itk+k64aegjsYle4opUZSGSHo
+RmMHLw==
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 69 (0x45)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CH, O=HEIG-VD, CN=HEIG-VDRoot
+        Validity
+            Not Before: Jun  7 15:20:26 2022 GMT
+            Not After : Jun  6 15:20:26 2032 GMT
+        Subject: C=CH, O=HEIG-VD, CN=ALLEMANO-TLS
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c7:51:d0:84:a0:27:ba:a7:af:57:74:e5:55:81:
+                    8e:9b:19:ce:11:ad:b9:d5:ff:0a:62:e9:5b:26:eb:
+                    d3:c2:1f:b4:cc:05:1c:31:16:de:8e:df:49:7f:3a:
+                    7a:7d:4c:78:8b:96:df:18:ca:aa:56:9a:e8:48:28:
+                    14:9b:da:e0:55:ca:42:0f:9f:1b:ca:2c:0d:ce:d7:
+                    47:2e:68:68:20:f8:93:02:19:36:c4:fd:13:40:16:
+                    13:43:c6:ba:0d:ef:e1:dc:57:82:9d:ce:0a:32:7e:
+                    38:bd:79:e1:38:1c:79:a0:db:7e:67:60:2a:0a:44:
+                    f9:1e:1e:31:b3:ca:e6:eb:b5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Subject Key Identifier: 
+                9B:65:A5:D8:EC:13:EC:82:59:2E:B6:55:F4:5E:6C:5E:00:13:DD:7F
+            X509v3 Authority Key Identifier: 
+                keyid:8A:F0:29:1C:64:AB:7B:B0:13:53:15:65:38:A1:7B:56:EE:73:F6:71
+
+    Signature Algorithm: sha256WithRSAEncryption
+         3c:e5:0f:70:81:90:8f:f6:2a:10:a0:84:e7:a1:7d:9d:13:c4:
+         ee:a5:df:f8:50:ad:68:cd:29:6d:00:6c:20:91:b8:48:b4:19:
+         f5:0c:81:99:db:4d:81:e2:a6:a1:57:63:74:04:6e:17:8c:29:
+         f6:29:c8:7b:43:5e:ed:1d:d2:4a:76:b3:38:f5:fa:1c:09:0b:
+         7c:c3:bf:ac:d9:eb:80:84:c6:da:23:06:d4:12:46:fc:43:c8:
+         46:04:4c:86:5f:6a:cb:fe:01:f1:90:f3:7d:70:6f:4b:5a:f4:
+         96:1f:18:79:b8:6a:09:25:59:eb:0b:9b:61:14:a6:44:f7:fa:
+         a8:36:d6:a4:a7:0a:0c:2c:e2:77:f6:68:0c:0d:f2:41:4c:04:
+         2a:2d:ce:34:3c:f9:97:48:1e:44:40:7b:57:19:95:a4:be:0e:
+         65:81:1b:10:2c:6b:c9:08:fc:50:07:69:55:f0:70:1b:6f:b2:
+         f0:fa:f4:f4:ad:54:ed:eb:1d:02:f2:01:ce:c8:75:6d:9d:ea:
+         e1:e6:15:91:86:b9:29:a9:5c:6d:7d:8c:73:08:e1:b2:2e:7f:
+         83:da:16:53:98:9a:ce:1f:a2:44:a2:a0:d7:23:28:64:8d:72:
+         bd:a5:a1:a2:4b:21:1a:6f:41:df:79:af:81:be:e0:5e:50:02:
+         3a:43:b6:14
+-----BEGIN CERTIFICATE-----
+MIICyDCCAbCgAwIBAgIBRTANBgkqhkiG9w0BAQsFADA1MQswCQYDVQQGEwJDSDEQ
+MA4GA1UECgwHSEVJRy1WRDEUMBIGA1UEAwwLSEVJRy1WRFJvb3QwHhcNMjIwNjA3
+MTUyMDI2WhcNMzIwNjA2MTUyMDI2WjA2MQswCQYDVQQGEwJDSDEQMA4GA1UECgwH
+SEVJRy1WRDEVMBMGA1UEAwwMQUxMRU1BTk8tVExTMIGfMA0GCSqGSIb3DQEBAQUA
+A4GNADCBiQKBgQDHUdCEoCe6p69XdOVVgY6bGc4RrbnV/wpi6Vsm69PCH7TMBRwx
+Ft6O30l/Onp9THiLlt8YyqpWmuhIKBSb2uBVykIPnxvKLA3O10cuaGgg+JMCGTbE
+/RNAFhNDxroN7+HcV4Kdzgoyfji9eeE4HHmg235nYCoKRPkeHjGzyubrtQIDAQAB
+o2YwZDAOBgNVHQ8BAf8EBAMCAQYwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4E
+FgQUm2Wl2OwT7IJZLrZV9F5sXgAT3X8wHwYDVR0jBBgwFoAUivApHGSre7ATUxVl
+OKF7Vu5z9nEwDQYJKoZIhvcNAQELBQADggEBADzlD3CBkI/2KhCghOehfZ0TxO6l
+3/hQrWjNKW0AbCCRuEi0GfUMgZnbTYHipqFXY3QEbheMKfYpyHtDXu0d0kp2szj1
++hwJC3zDv6zZ64CExtojBtQSRvxDyEYETIZfasv+AfGQ831wb0ta9JYfGHm4agkl
+WesLm2EUpkT3+qg21qSnCgws4nf2aAwN8kFMBCotzjQ8+ZdIHkRAe1cZlaS+DmWB
+GxAsa8kI/FAHaVXwcBtvsvD69PStVO3rHQLyAc7IdW2d6uHmFZGGuSmpXG19jHMI
+4bIuf4PaFlOYms4fokSioNcjKGSNcr2loaJLIRpvQd95r4G+4F5QAjpDthQ=
+-----END CERTIFICATE-----

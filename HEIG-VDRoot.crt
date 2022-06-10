@@ -1,0 +1,79 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CH, O=HEIG-VD, CN=HEIG-VDRoot
+        Validity
+            Not Before: Jan 11 09:03:05 2022 GMT
+            Not After : Dec 31 23:59:59 2030 GMT
+        Subject: C=CH, O=HEIG-VD, CN=HEIG-VDRoot
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:aa:3b:36:d5:7a:21:a0:fa:e3:f3:34:2f:fd:0e:
+                    a3:f6:01:8c:7a:4a:26:26:86:92:bf:0f:69:b3:b4:
+                    e5:64:5f:84:bd:87:47:65:e0:d3:97:14:4b:9a:d8:
+                    9a:68:e0:d2:62:5a:a6:64:d6:b6:8a:07:24:9f:28:
+                    41:4b:d7:70:dd:d8:70:97:74:40:0c:6f:7f:ed:d2:
+                    18:0d:b8:09:f8:e0:19:e4:62:0d:97:51:ab:be:eb:
+                    98:df:7b:3c:1f:60:24:fd:56:55:af:d3:0b:e6:d6:
+                    59:0f:6e:bb:1a:45:94:97:8c:7e:a2:a9:37:14:26:
+                    da:2f:32:a8:a6:ec:a9:8c:4b:51:2c:2e:24:7f:4e:
+                    57:6d:0e:3d:29:45:2a:0c:6a:66:6a:b9:62:a2:a1:
+                    bb:4d:a3:60:de:3a:99:9d:7b:15:01:d9:d3:54:ab:
+                    6d:81:76:ca:38:a7:dc:b4:e2:71:d3:df:78:15:36:
+                    1c:f5:6b:39:a7:b2:59:07:a2:26:79:3c:cf:28:70:
+                    8e:a2:4d:2a:d8:b9:d9:20:42:75:3c:28:3b:c4:50:
+                    8e:3e:a4:ef:ca:2b:51:52:09:99:52:7b:a9:80:63:
+                    a5:d9:c5:f6:46:c7:ec:96:d5:ed:67:81:09:8f:62:
+                    e5:c3:56:27:0c:ac:e8:73:09:1f:7c:1e:82:88:d4:
+                    3d:0f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                8A:F0:29:1C:64:AB:7B:B0:13:53:15:65:38:A1:7B:56:EE:73:F6:71
+            X509v3 Authority Key Identifier: 
+                keyid:8A:F0:29:1C:64:AB:7B:B0:13:53:15:65:38:A1:7B:56:EE:73:F6:71
+
+    Signature Algorithm: sha256WithRSAEncryption
+         74:1e:56:39:88:18:29:1d:be:c0:95:18:98:0d:73:b2:ce:5a:
+         b7:b4:dd:ac:4e:dd:da:ae:70:5f:35:ea:b1:e1:6c:dd:33:87:
+         17:9b:2d:6a:21:a1:a0:87:e0:89:b0:c9:f5:66:cc:71:76:d5:
+         75:ec:70:32:1c:cd:8a:e4:e0:3c:1c:10:4a:9e:37:f3:7b:41:
+         42:4a:28:04:2f:0f:08:51:c3:d1:fa:c4:1b:a9:36:14:4e:3c:
+         69:26:f0:2f:4e:e8:76:dc:47:ee:7c:0d:4b:c4:79:a9:13:3f:
+         af:53:83:4f:5d:b4:6b:e7:9e:2e:c7:d6:ad:de:1e:cd:71:f2:
+         c3:34:2a:09:ec:75:2c:61:50:f5:50:66:ee:3c:3c:d9:5e:53:
+         cf:f8:39:98:a1:83:22:91:84:f9:b4:17:e9:3c:db:82:20:38:
+         c0:64:a3:e5:42:d4:71:7e:09:27:ed:4b:6b:dd:4c:5b:31:87:
+         20:51:97:c4:87:eb:4f:ef:60:a5:b3:14:48:23:9d:fa:46:59:
+         ff:cf:15:1e:90:06:54:2d:8e:a0:94:cc:0d:d3:ef:27:5f:be:
+         10:48:c9:5b:58:b6:ab:2a:3f:35:0d:d6:cb:46:81:ff:97:86:
+         3c:4c:3b:bb:6b:d9:90:3c:12:f4:12:4d:12:dd:b9:b6:b9:71:
+         37:4a:ec:d4
+-----BEGIN CERTIFICATE-----
+MIIDSDCCAjCgAwIBAgIBAjANBgkqhkiG9w0BAQsFADA1MQswCQYDVQQGEwJDSDEQ
+MA4GA1UECgwHSEVJRy1WRDEUMBIGA1UEAwwLSEVJRy1WRFJvb3QwHhcNMjIwMTEx
+MDkwMzA1WhcNMzAxMjMxMjM1OTU5WjA1MQswCQYDVQQGEwJDSDEQMA4GA1UECgwH
+SEVJRy1WRDEUMBIGA1UEAwwLSEVJRy1WRFJvb3QwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCqOzbVeiGg+uPzNC/9DqP2AYx6SiYmhpK/D2mztOVkX4S9
+h0dl4NOXFEua2Jpo4NJiWqZk1raKBySfKEFL13Dd2HCXdEAMb3/t0hgNuAn44Bnk
+Yg2XUau+65jfezwfYCT9VlWv0wvm1lkPbrsaRZSXjH6iqTcUJtovMqim7KmMS1Es
+LiR/TldtDj0pRSoMamZquWKiobtNo2DeOpmdexUB2dNUq22Bdso4p9y04nHT33gV
+Nhz1azmnslkHoiZ5PM8ocI6iTSrYudkgQnU8KDvEUI4+pO/KK1FSCZlSe6mAY6XZ
+xfZGx+yW1e1ngQmPYuXDVicMrOhzCR98HoKI1D0PAgMBAAGjYzBhMA4GA1UdDwEB
+/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBSK8CkcZKt7sBNTFWU4
+oXtW7nP2cTAfBgNVHSMEGDAWgBSK8CkcZKt7sBNTFWU4oXtW7nP2cTANBgkqhkiG
+9w0BAQsFAAOCAQEAdB5WOYgYKR2+wJUYmA1zss5at7TdrE7d2q5wXzXqseFs3TOH
+F5staiGhoIfgibDJ9WbMcXbVdexwMhzNiuTgPBwQSp4383tBQkooBC8PCFHD0frE
+G6k2FE48aSbwL07odtxH7nwNS8R5qRM/r1ODT120a+eeLsfWrd4ezXHywzQqCex1
+LGFQ9VBm7jw82V5Tz/g5mKGDIpGE+bQX6TzbgiA4wGSj5ULUcX4JJ+1La91MWzGH
+IFGXxIfrT+9gpbMUSCOd+kZZ/88VHpAGVC2OoJTMDdPvJ1++EEjJW1i2qyo/NQ3W
+y0aB/5eGPEw7u2vZkDwS9BJNEt25trlxN0rs1A==
+-----END CERTIFICATE-----
